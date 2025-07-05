@@ -7,6 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   }
+
+  if (!form) {
+    console.error("Form not found!");
+    return;
+  }
+
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
