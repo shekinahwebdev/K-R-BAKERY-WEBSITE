@@ -1,0 +1,22 @@
+body {
+  transition: opacity 0.3s ease;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.service-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_services {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 90%;
+}
