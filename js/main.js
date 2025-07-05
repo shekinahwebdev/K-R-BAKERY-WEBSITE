@@ -8,11 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     return regex.test(email);
   }
 
-  if (!form) {
-    console.error("Form not found!");
-    return;
-  }
-
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
@@ -54,16 +49,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // const links = document.querySelectorAll("a");
+  const links = document.querySelectorAll("a");
 
-  // links.forEach((link) => {
-  //   link.addEventListener("click", (e) => {
-  //     e.preventDefault();
-  //     document.body.classList.add("fade-out");
+  links.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      document.body.classList.add("fade-out");
 
-  //     setTimeout(() => {
-  //       window.location.href = link.href;
-  //     }, 300);
-  //   });
-  // });
+      setTimeout(() => {
+        window.location.href = link.href;
+      }, 300);
+    });
+  });
 });
