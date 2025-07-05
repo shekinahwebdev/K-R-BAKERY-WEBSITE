@@ -31,9 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     emailjs.send("service_z5fg2vk", "template_i45yjbx", params).then(
       () => {
         form.reset();
-        document.querySelector(".success-message").style.display = "block";
         setTimeout(() => {
-          document.querySelector(".success-message").style.display = "none";
           window.location.reload();
         }, 100);
       },
