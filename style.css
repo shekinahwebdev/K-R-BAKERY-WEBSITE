@@ -222,7 +222,7 @@ li a {
 
 .site-footer {
   background-color: var(--royal-blue);
-  padding: 1rem;
+  padding: 1rem 0.8rem;
 }
 
 .footer-top {
@@ -294,6 +294,7 @@ li a {
   width: 150px;
   height: 150px;
   margin-top: 1rem;
+  margin-left: 0.5rem;
 }
 
 .other_services p {
@@ -397,7 +398,7 @@ li a {
   }
 
   .other_services .our_offer {
-    padding: 1rem;
+    padding: 0rem 0rem 0rem 0.7rem;
     text-align: left;
     color: white;
   }
