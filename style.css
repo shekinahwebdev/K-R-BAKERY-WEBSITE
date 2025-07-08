@@ -268,9 +268,11 @@ li a {
 
 .about_us p,
 .explore p,
-.other_services p {
+.other_services {
   font-size: 1.2rem;
   text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 .about_us_links,
@@ -300,10 +302,11 @@ li a {
 .other_services p {
   font-size: 1rem;
   margin-top: 1rem;
-  color: black;
 }
-.main_offer p {
+
+.our_offer {
   color: white;
+  font-weight: 500;
 }
 
 .main_offer {
